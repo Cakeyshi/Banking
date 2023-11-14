@@ -57,12 +57,9 @@ void f_Main_Screen()
         printf("Enter your choice: ");
 
         // Read user input using fgets and sscanf
-        fgets(buffer, sizeof(buffer), stdin);
-        if (sscanf(buffer, " %d", &choice) != 1) {
-            printf("Invalid input. Please enter a number.\n");
-            clearInputBuffer(); // Clear the buffer in case of invalid input
-            continue; // Go back to the beginning of the loop
-        }
+        scanf(" %d", &choice);
+        getchar();
+
 
         switch (choice) {
             case 1:
@@ -207,7 +204,7 @@ void f_SignUp() {
     fprintf(file, "Birthdate: %d-%d-%d\n", basicAccountSignUp.birth_year, basicAccountSignUp.birth_month, basicAccountSignUp.birth_day);
     fprintf(file, "Age: %d\n", age);
     fprintf(file, "Nationality: %s\n", basicAccountSignUp.nationality);
-    fprintf(file, "Phone Address: %d\n", basicAccountSignUp.mobileNumber);
+    fprintf(file, "Phone Address: +63%d\n", basicAccountSignUp.mobileNumber);
     fclose(file);
 
     printf("User signed up successfully! \n Your Account Number is: %s\n", basicAccountSignUp.accountNumber);
