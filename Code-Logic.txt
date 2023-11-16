@@ -1,0 +1,27 @@
+Sign Up Logic
+
+Default size for each Data Input is 100 bytes
+Default Max users for each account type that can be created is 100  
+1.	Let user choose Account type
+2.	Ask for Basic Information -> Input.
+3.	Allocate memory for Data Containers .
+4.	Generate a random number after sign up and show it to user
+5.	Place random number inside the txt file as account number
+6.	Information inside the Data Containers are later on put into the text file.
+7.	Call data inside the text file during login.
+
+Login Logic
+1.	Ask for Login details(Account Number and Pin)
+2.	If correct display options withdraw, deposit, view profile and exit
+3.	Must include back function
+
+**Functions to make**
+1.	Login and Sign up function 
+2.	Dynamic Allocator
+3.	Random Account Number generator
+4.	Birthdate Validator
+5.	Information Sorter
+6.	Age validator
+7.	Go back function
+
+
