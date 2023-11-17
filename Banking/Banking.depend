@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1700264198 source:c:\users\zach\documents\banking\banking\main.c
+	"banking.h"
+
+1700264119 c:\users\zach\documents\banking\banking\banking.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+
+1700263524 c:\users\zach\documents\banking\banking\banking.c
+
